@@ -14,9 +14,11 @@ const PurchaseSection = () => {
             <p>👶 Ages 5–10 (Grades 1–4)</p>
             <p>🚚 Free shipping on orders over $25</p>
           </div>
-          <Button variant="cta" size="lg" className="text-base px-10 py-6 rounded-full w-full sm:w-auto">
-            Buy Now
-          </Button>
+          <a href="/payment">
+            <Button variant="cta" size="lg" className="text-base px-10 py-6 rounded-full w-full sm:w-auto">
+              Buy Now
+            </Button>
+          </a>
         </div>
       </div>
     </section>
