@@ -12,7 +12,7 @@ const illustrations = [
 
 const GallerySection = () => {
   return (
-    <section className="bg-card py-16 md:py-24">
+    <section id="gallery" className="bg-card py-16 md:py-24">
       <div className="container mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-heading text-center mb-12 text-foreground">
           Illustrations

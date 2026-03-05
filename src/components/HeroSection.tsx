@@ -27,12 +27,18 @@ const HeroSection = () => {
               Perfect for children in Grades 1–4, this beautifully illustrated story follows a little cat who believes he is a mouse — and the lesson that changes everything.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              <Button variant="cta" size="lg" className="text-base px-8 py-6 rounded-full">
-                Order Your Copy
-              </Button>
-              <Button variant="cta-outline" size="lg" className="text-base px-8 py-6 rounded-full">
-                Read a Preview
-              </Button>
+              <a href="/payment">
+                <Button variant="cta" size="lg" className="text-base px-8 py-6 rounded-full">
+                  Order Your Copy
+                </Button>
+              </a>
+              <button
+                onClick={() => document.getElementById("gallery")?.scrollIntoView({ behavior: "smooth" })}
+              >
+                <Button variant="cta-outline" size="lg" className="text-base px-8 py-6 rounded-full">
+                  Read a Preview
+                </Button>
+              </button>
             </div>
           </div>
         </div>
