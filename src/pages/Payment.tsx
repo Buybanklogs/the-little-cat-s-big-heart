@@ -68,7 +68,7 @@ const Payment = () => {
             </a>
 
             <a
-              href="https://cash.app/$YOURCASHTAG/14.99"
+              href="https://cash.app/$anne/14.99"
               target="_blank"
               rel="noopener noreferrer"
               className="block"
